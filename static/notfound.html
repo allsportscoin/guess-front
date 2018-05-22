@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Sports Predict</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-dns-prefetch-control" content="on"/>
+        <meta name="keywords" content="SPORTS GUESSING" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            html,body{
+                font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+                height: 100%;
+                overflow-y: scroll;
+            }
+            a{
+                text-decoration: none;
+            }
+            .notFind{
+                width: 100%;
+                height: 100%;
+                background: #eff1f4;
+                position: relative;
+            }
+            .notFindHeader{
+                width: 100%;
+                height: 2.4rem;
+                background: #1a9248;
+            }
+            .notFindSocLogo{
+                width: 8.4rem;
+                height: 1.22rem;
+                display: inline-block;
+                margin-left: 0.8rem;
+                margin-top: 0.56rem;
+                float: left;
+            }
+            .content404{
+                width:96%;
+                margin: 0 auto;
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                line-height: 2rem;
+                box-sizing: border-box;
+                font-size: 1rem;
+                color:#1a9248;
+            }
+            @media screen and (min-width:639px){
+                html {
+                    font-size:20px;
+                    max-width: 600px;
+                    margin: 0 auto;
+                }
+                .notFindHeader{
+                    width: 100%;
+                    height: 1.4rem;
+                    background: #1a9248;
+                }
+                .notFindSocLogo{
+                    width: 3rem;
+                    display: inline-block;
+                    height: 0.48rem;
+                    margin-left: 0.4rem;
+                    margin-top: 0.4rem;
+                }
+                .content404{
+                    font-size: 0.4rem;
+                    line-height: 0.8rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="notFind">
+            <div class="notFindHeader">
+                <img src="./socLogoText.png" class="notFindSocLogo" alt="">
+            </div>
+            <div class="content404">
+                This website is not available in your country/region due to the local laws & regulations.
+            </div>
+        </div>
+        <script type="text/javascript">
+            document.documentElement.style.fontSize = 20 * document.documentElement.clientWidth / 375 + 'px';
+        </script>
+    </body>
+</html>
